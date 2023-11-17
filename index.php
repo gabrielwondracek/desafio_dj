@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +10,7 @@
     <?php 
         require_once("conecta.php");
         if(isset($_GET["id"])==true){
+            echo "<script>coloreArea(".$_GET['id']."); </script>";
         }
     ?>
     <main id="patio">
